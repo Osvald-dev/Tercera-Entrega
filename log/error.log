@@ -1,0 +1,150 @@
+[2023-03-07T09:36:54.810] [ERROR] default - Error: Missing credentials for "PLAIN"
+    at SMTPConnection._formatError (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection.login (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:444:38)
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-transport\index.js:272:32
+    at SMTPConnection.<anonymous> (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:213:17)
+    at Object.onceWrapper (node:events:641:28)
+    at SMTPConnection.emit (node:events:527:28)
+    at SMTPConnection._actionEHLO (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:1331:14)
+    at SMTPConnection._processResponse (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:193:44) {
+  code: 'EAUTH',
+  command: 'API'
+}
+[2023-03-07T09:55:04.978] [ERROR] default - ReferenceError: UsuarioModel is not defined
+    at UsuarioDao.loginUser (file:///D:/0_PROYECTOS/backEnd/Entrega%2018/src/dao/UsuarioDao.js:20:26)
+    at file:///D:/0_PROYECTOS/backEnd/Entrega%2018/src/routes/user.js:41:38
+    at Layer.handle [as handle_request] (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:175:3)
+[2023-03-07T09:58:53.839] [ERROR] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials e3-20020a9d6e03000000b00690c80741e3sm5236999otr.66 - gsmtp
+    at SMTPConnection._formatError (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection.<anonymous> (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:546:26)
+    at SMTPConnection._processResponse (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:953:20)
+    at SMTPConnection._onData (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\nodemailer\lib\smtp-connection\index.js:193:44)
+    at TLSSocket.emit (node:events:527:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at TLSSocket.Readable.push (node:internal/streams/readable:228:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials e3-20020a9d6e03000000b00690c80741e3sm5236999otr.66 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-03-07T10:02:09.165] [ERROR] default - ReferenceError: UsuarioModel is not defined
+    at UsuarioDao.loginUser (file:///D:/0_PROYECTOS/backEnd/Entrega%2018/src/dao/UsuarioDao.js:20:26)
+    at file:///D:/0_PROYECTOS/backEnd/Entrega%2018/src/routes/user.js:41:38
+    at Layer.handle [as handle_request] (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:175:3)
+[2023-03-07T10:02:35.040] [ERROR] default - Error: usuarios validation failed: password: Path `password` is required., email: Path `email` is required., username: Path `username` is required.
+    at ValidationError.inspect (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:782:19)
+    at inspect (node:internal/util/inspect:347:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2167:40)
+    at Object.format (node:internal/util/inspect:2021:10)
+    at basicLayout (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\log4js\lib\layouts.js:65:52)
+    at app (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\log4js\lib\appenders\file.js:98:23)
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    password: ValidatorError: Path `password` is required.
+        at validate (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\lib\schematype.js:1330:7)
+        at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\lib\document.js:2905:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'password',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    email: ValidatorError: Path `email` is required.
+        at validate (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\lib\schematype.js:1330:7)
+        at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\lib\document.js:2905:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'email',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    username: ValidatorError: Path `username` is required.
+        at validate (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\lib\schematype.js:1330:7)
+        at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\lib\document.js:2905:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'username',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'usuarios validation failed'
+}
+[2023-03-07T10:04:22.583] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerce.usuarios index: username_1 dup key: { username: "MDJ_ok" }
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:333:25
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:212:17
+    at handleOperationResult (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:328:20)
+    at Connection.onMessage (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:239:9)
+    at MessageStream.<anonymous> (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:527:28)
+    at processIncomingData (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12) {
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: 'MDJ_ok' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-03-07T10:05:15.156] [ERROR] default - MongoServerError: E11000 duplicate key error collection: ecommerce.usuarios index: username_1 dup key: { username: "MDJ_ok" }
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:333:25
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:212:17
+    at handleOperationResult (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:328:20)
+    at Connection.onMessage (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:239:9)
+    at MessageStream.<anonymous> (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:527:28)
+    at processIncomingData (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:125:16)
+    at MessageStream._write (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:389:12) {
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: 'MDJ_ok' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-03-07T10:06:13.736] [ERROR] default - ReferenceError: UsuarioModel is not defined
+    at UsuarioDao.loginUser (file:///D:/0_PROYECTOS/backEnd/Entrega%2018/src/dao/UsuarioDao.js:20:26)
+    at file:///D:/0_PROYECTOS/backEnd/Entrega%2018/src/routes/user.js:41:38
+    at Layer.handle [as handle_request] (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\layer.js:95:5)
+    at D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\0_PROYECTOS\backEnd\Entrega 18\node_modules\express\lib\router\index.js:175:3)
